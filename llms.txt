@@ -1,0 +1,45 @@
+# Global University AI Policy Audit 2026
+
+> Open dataset: 186 audit records of whether universities publish official
+> guidance on generative AI use. By Study Intelligence (https://aclas.si).
+> License: CC-BY-4.0. Snapshot: 2026-10-14.
+
+## What question does this answer?
+
+Do universities publish official, public guidance on student/staff use of
+generative AI? Each row was verified by opening a page on the university's
+own official domain.
+
+## Key findings
+
+- 144 of 186 (77%) publish verifiable AI guidance; 24 confirmed none; 18 unclear.
+- Top-50 universities: 92% publish guidance. Global South flagships: 46%.
+- Zero campus-wide AI bans in the top 100. The global norm is delegated
+  permission (instructors set per-course rules) plus mandatory disclosure.
+- The policy gap maps onto the wealth gap.
+
+## Files
+
+- `ai-policy-audit-2026.csv` — 186 rows, 14 columns (UTF-8)
+- `ai-policy-audit-2026.json` — same data plus dataset metadata
+- `METHODOLOGY.md` — audit method, definitions, caveats
+- `parse.py` — exact script that generated CSV/JSON
+- `CITATION.cff` — machine-readable citation
+
+## Columns (CSV)
+
+`id`, `sample` (qs_top_50 / qs_51_100 / qs_101_150 / global_south), `rank`
+(QS 2026), `university`, `country`, `has_policy` (YES / NO / UNCLEAR),
+`policy_url`, `page_title`, `date_info`, `scope`, `note`, plus overlap flags.
+
+## Caveats
+
+- 15 universities appear in two samples (flagged `name_overlap`); deduplicate
+  on `university` for institution-level counts (171 unique).
+- UNCLEAR means "could not verify", not "confirmed absent".
+- Snapshot 2026-10-14; policies change — verify before citing a single row.
+
+## Citation
+
+Study Intelligence (https://aclas.si). "Global University AI Policy Audit
+2026" (v1.0.0, 2026-10-14). CC-BY-4.0.
