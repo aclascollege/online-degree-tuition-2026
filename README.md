@@ -8,6 +8,9 @@ with tuition verified against each university's official website. Built for the
 cheapest-online-degrees tool (aclas.edu.gr) and released here as open data.
 
 
+
+> **Also on Kaggle:** [aclascollege/online-degree-tuition-2026](https://www.kaggle.com/datasets/aclascollege/online-degree-tuition-2026) — download the CSV without git, or fork it straight into a notebook.
+
 ## In plain English
 
 **What is this?** The price tag for 740 online degrees at 537 US schools —
