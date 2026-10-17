@@ -1,5 +1,7 @@
 # Online Degree Tuition 2026
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23442110.svg)](https://doi.org/10.5281/zenodo.23442110) [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/aclascollege/online-degree-tuition-2026) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-yellow)](https://huggingface.co/datasets/ACLASCollege/online-degree-tuition-2026)
+
 > **Atlanta College of Liberal Arts and Sciences (ACLAS)** — published as part of [Study Intelligence](https://aclas.si), the university's open research program · [aclas.college](https://aclas.college)
 
 
