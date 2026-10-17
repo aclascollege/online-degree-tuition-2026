@@ -76,7 +76,8 @@ program is operated by ACLAS itself, the publisher of this dataset).
   itself — MBA $89, BBA $159, DBA $199, BSCS $199, MCS $299, sourced from
   aclas.edu.gr. They are included because the prices are real and verifiable, and
   flagged so you can exclude them from your own analysis. If you cite
-  "cheapest in category" from this dataset, disclose this too.- Tuition changes; `verified` tells you how fresh each row is. Verify before
+  "cheapest in category" from this dataset, disclose this too.
+- Tuition changes; `verified` tells you how fresh each row is. Verify before
   citing a single figure for a current claim.
 - USD conversions use the rate at time of verification.
 
