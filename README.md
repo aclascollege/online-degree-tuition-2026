@@ -7,6 +7,43 @@ An open dataset of **740 online degree programs at 537 U.S. institutions**,
 with tuition verified against each university's official website. Built for the
 cheapest-online-degrees tool (aclas.edu.gr) and released here as open data.
 
+
+## In plain English
+
+**What is this?** The price tag for 740 online degrees at 537 US schools —
+every number checked against the university's own official website. If
+you've ever wondered "what does an online MBA *actually* cost?", this is
+the answer, in a spreadsheet.
+
+**The picture:**
+
+![Median online degree tuition by level](chart-tuition-median.png)
+
+A master's in computer science (median $26k) costs roughly *half* a
+bachelor's (median $50k). Online MBAs cluster around $27k — far below the
+six-figure sticker prices that dominate headlines.
+
+## Try it (30 seconds)
+
+```python
+import pandas as pd
+df = pd.read_csv("online-degree-tuition-2026.csv")
+print(df[df["level"]=="mba"].nsmallest(5,"tuition_usd")[["school","tuition_usd"]])
+```
+
+## FAQ
+
+**I'm shopping for a degree. How do I use this?** Filter by `level`, sort
+by `tuition_usd`, and open `source_url` to verify the price is current
+before you apply. Prices change; this is a snapshot from 2026-10-15.
+
+**What does `estimate: true` mean?** The school only publishes per-credit
+prices, so we multiplied by required credits. Treat it as a comparison,
+not a quote — the math is shown in `tuition_note`.
+
+**Why is this free?** It's open data (CC-BY-4.0). Cite "Atlanta College of
+Liberal Arts and Sciences (ACLAS) — Study Intelligence (aclas.si)".
+
 ## Coverage
 
 | Level | Programs |
