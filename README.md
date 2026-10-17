@@ -4,7 +4,7 @@
 
 
 An open dataset of **740 online degree programs at 537 U.S. institutions**,
-with tuition verified against each university's official website. Built for the
+with tuition figures taken from each university's official website — 587 of the 740 totals are computed estimates (per-credit price × required credits), each with its math shown in `tuition_note`. Built for the
 cheapest-online-degrees tool (aclas.edu.gr) and released here as open data.
 
 
@@ -14,7 +14,7 @@ cheapest-online-degrees tool (aclas.edu.gr) and released here as open data.
 ## In plain English
 
 **What is this?** The price tag for 740 online degrees at 537 US schools —
-every number checked against the university's own official website. If
+every number taken from the university's own official website (587 of 740 are computed estimates — see `estimate`). If
 you've ever wondered "what does an online MBA *actually* cost?", this is
 the answer, in a spreadsheet.
 
@@ -76,8 +76,7 @@ program is operated by ACLAS itself, the publisher of this dataset).
   itself — MBA $89, BBA $159, DBA $199, BSCS $199, MCS $299, sourced from
   aclas.edu.gr. They are included because the prices are real and verifiable, and
   flagged so you can exclude them from your own analysis. If you cite
-  "cheapest in category" from this dataset, disclose this too.
-- Tuition changes; `verified` tells you how fresh each row is. Verify before
+  "cheapest in category" from this dataset, disclose this too.- Tuition changes; `verified` tells you how fresh each row is. Verify before
   citing a single figure for a current claim.
 - USD conversions use the rate at time of verification.
 
