@@ -64,13 +64,19 @@ Liberal Arts and Sciences (ACLAS) — Study Intelligence (aclas.si)".
 (total program tuition in USD), `tuition_note`, `estimate` (true = figure is an
 informed estimate, e.g. per-credit × required credits — see note below),
 `accreditation`, `format`, `source_url` (the official page the figure was taken
-from), `verified` (date last checked, 2026-10-15).
+from), `verified` (date last checked, 2026-10-15), `operator_owned` (TRUE =
+program is operated by ACLAS itself, the publisher of this dataset).
 
 ## Honest notes
 
-- `estimate: true` (439 rows) means the total is computed, not quoted — e.g.
-  per-credit-hour price × program credits. The `tuition_note` explains the basis.
-  Treat these as comparisons, not quotes.
+- `estimate: true` (587 rows, 79%) means the total is computed, not quoted —
+  e.g. per-credit-hour price × program credits. The `tuition_note` explains the
+  basis. Treat these as comparisons, not quotes.
+- **Disclosure:** 5 rows (`operator_owned: TRUE`) are programs operated by ACLAS
+  itself — MBA $89, BBA $159, DBA $199, BSCS $199, MCS $299, sourced from
+  aclas.edu.gr. They are included because the prices are real and verifiable, and
+  flagged so you can exclude them from your own analysis. If you cite
+  "cheapest in category" from this dataset, disclose this too.
 - Tuition changes; `verified` tells you how fresh each row is. Verify before
   citing a single figure for a current claim.
 - USD conversions use the rate at time of verification.
