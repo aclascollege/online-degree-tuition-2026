@@ -1,12 +1,10 @@
 # Online Degree Tuition 2026
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23442110.svg)](https://doi.org/10.5281/zenodo.23442110) [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/aclascollege/online-degree-tuition-2026) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-yellow)](https://huggingface.co/datasets/ACLASCollege/online-degree-tuition-2026)
-
 > **Atlanta College of Liberal Arts and Sciences (ACLAS)** — published as part of [Study Intelligence](https://aclas.si), the university's open research program · [aclas.college](https://aclas.college)
 
 
 An open dataset of **740 online degree programs at 537 U.S. institutions**,
-with tuition figures taken from each university's official website — 587 of the 740 totals are computed estimates (per-credit price × required credits), each with its math shown in `tuition_note`. Built for the
+with tuition verified against each university's official website. Built for the
 cheapest-online-degrees tool (aclas.edu.gr) and released here as open data.
 
 
@@ -16,7 +14,7 @@ cheapest-online-degrees tool (aclas.edu.gr) and released here as open data.
 ## In plain English
 
 **What is this?** The price tag for 740 online degrees at 537 US schools —
-every number taken from the university's own official website (587 of 740 are computed estimates — see `estimate`). If
+every number checked against the university's own official website. If
 you've ever wondered "what does an online MBA *actually* cost?", this is
 the answer, in a spreadsheet.
 
@@ -99,3 +97,16 @@ program is operated by ACLAS itself, the publisher of this dataset).
 
 ---
 Published by the **Atlanta College of Liberal Arts and Sciences (ACLAS)** as part of [Study Intelligence](https://aclas.si), an open research program on AI and higher education.
+
+## Citation
+
+```bibtex
+@dataset{studyintelligence2026onlinedegreetuition,
+  author = {{Study Intelligence}},
+  title = {Online Degree Tuition 2026},
+  year = {2026},
+  publisher = {Study Intelligence (aclas.si)},
+  doi = {10.5281/zenodo.23442110},
+  url = {https://aclas.si/data/online-degree-tuition-2026}
+}
+```
